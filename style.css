@@ -1,0 +1,11 @@
+/* Set a smooth gradient background from left (gray-blue) to right (light blue) */
+body {
+  background: linear-gradient(to right, #cfd9df, #e2ebf0);
+  font-family: 'Segoe UI', sans-serif; /* Use a clean, modern font for text */
+}
+
+/* Apply a smooth transition effect to the weather result section 
+   This will make showing/hiding or style changes look smooth */
+#weatherResult {
+  transition: all 0.3s ease-in-out; /* Applies transition to all properties over 0.3s */
+}
